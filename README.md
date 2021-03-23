@@ -1,2 +1,2 @@
-# Gnuplot_manager
- Library to manage gnuplot
+# Gnuplot
+Library to manage gnuplot
