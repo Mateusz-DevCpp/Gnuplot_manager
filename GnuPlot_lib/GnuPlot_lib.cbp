@@ -35,9 +35,9 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
-		<Unit filename="gnuoplot_manager/include/Define.h" />
-		<Unit filename="gnuoplot_manager/include/GnuPlot.h" />
-		<Unit filename="gnuoplot_manager/src/GnuPlot.cpp" />
+		<Unit filename="gnuplot_manager/include/Define.h" />
+		<Unit filename="gnuplot_manager/include/GnuPlot.h" />
+		<Unit filename="gnuplot_manager/src/GnuPlot.cpp" />
 		<Unit filename="main.cpp" />
 		<Extensions />
 	</Project>

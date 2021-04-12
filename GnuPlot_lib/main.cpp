@@ -3,14 +3,14 @@
 #include <stdio.h>
 #include <windows.h>
 
-#include "gnuoplot_manager/include/GnuPlot.h"
+#include "gnuplot_manager/include/GnuPlot.h"
 
 int main()
 {
-    std::vector<Point> pkt;
-    pkt.push_back(Point{0,1});
-    pkt.push_back(Point{1,2});
-    pkt.push_back(Point{2,3});
+    std::vector<Point<double>> pkt;
+    pkt.push_back(Point<double>(0,1));
+    pkt.push_back(Point<double>(1,2));
+    pkt.push_back(Point<double>(2,3));
 
     GnuPlot::Clear();
     GnuPlot::SetLegend("outside");

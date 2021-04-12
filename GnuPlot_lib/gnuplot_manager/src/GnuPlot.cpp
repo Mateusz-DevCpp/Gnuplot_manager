@@ -46,7 +46,7 @@ void GnuPlot::AddPoint(double x, double y, std::string point_type, std::string r
     points_cmd.push_back("\ne\n");
 }
 
-void GnuPlot::AddPoints(std::vector<Point> points ,std::string point_type, std::string rgb_color,  std::string title)
+void GnuPlot::AddPoints(std::vector<Point<double>> points ,std::string point_type, std::string rgb_color,  std::string title)
 {
     main_cmd += "'-' u 1:2 title \"" + title + "\" w p ls " + point_type + " lt rgb \"0x00" + rgb_color + "\",";
 

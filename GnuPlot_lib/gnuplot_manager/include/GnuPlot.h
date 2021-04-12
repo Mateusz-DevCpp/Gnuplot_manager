@@ -1,3 +1,12 @@
+/**<!>**
+ *
+ * \Informations
+ * \Author: Mateusz Darul
+ * \Version: 1.2.1
+ * \Contact: mateuszdarul7@gmail.com
+ *
+ **<!>**/
+
 #ifndef GNUPLOT_H
 #define GNUPLOT_H
 
@@ -23,7 +32,7 @@ public:
     static void Clear();
     static void Draw();
     static void AddPoint(double x, double y, std::string point_type="1", std::string rgb_color="FF0000", std::string title="-");
-    static void AddPoints(std::vector<Point> points ,std::string point_type="1", std::string rgb_color="FF0000", std::string title="-");
+    static void AddPoints(std::vector<Point<double>> points ,std::string point_type="1", std::string rgb_color="FF0000", std::string title="-");
     static void AddLine(double x1, double y1, double x2, double y2, std::string point_type="1", std::string rgb_color="FF0000");
 
     static void SetSize(double range_x_begin, double range_x_end, double range_y_begin, double range_y_end);
